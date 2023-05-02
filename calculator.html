@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <style>
+    button{
+      border-radius: 50%;
+      padding: 10px;
+      font-size: 20px;
+      color: #fff;
+      height: 50px;
+      width: 50px;
+      border: 1px solid red;
+      margin: 10px;
+      background-color: red;
+      transition: 200ms;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    }
+   
+    /* button:link, button:visited{
+      border-radius: 50%;
+      padding: 10px;
+      font-size: 20px;
+      color: #fff;
+      height: 50px;
+      width: 50px;
+      border: 1px solid red;
+      margin: 10px;
+      background-color: red;
+    } */
+    button:hover, button:active{
+      background-color: lightpink;
+      font-weight: 700;
+      transform: scale(1.1);
+
+    }
+  </style>
+</head>
+<body>
+  <p>
+
+    <button onclick="calculation += '1'
+  console.log(calculation)">1</button>
+  <button
+  onclick="calculation += '2'
+  console.log(calculation)">2</button>
+  <button
+  onclick="calculation += '3'
+  console.log(calculation)">3</button>
+  </p>
+  <p>
+
+    <button onclick="calculation += '4'
+  console.log(calculation)">4</button>
+  <button
+  onclick="calculation += '5'
+  console.log(calculation)">5</button>
+  <button
+  onclick="calculation += '6'
+  console.log(calculation)">6</button>
+  </p>
+  <button 
+  onclick="calculation += '+'
+  console.log(calculation)">+</button>
+  <button
+  onclick="eval(calculation);
+  calculation=eval(calculation);
+  calculation= eval(calculation)
+  console.log(calculation)
+  ">=</button>
+  <script>
+    let calculation =""
+  </script>
+</body>
+</html>
