@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{62.5%}
+
+.red-btn{
+  font-size: 3rem;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.yellow-btn{
+  background-color: yellow;
+  border: none;
+  font-size: 3rem;
+}
+p{
+  font-size: 2rem;
+  line-height: 2;
+}
+.button{
+  border: 2px solid black;
+  width: 10rem;
+  height: 2rem;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 3rem;
+}
+.the-buttons{
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-1{
+  background-color: yellow;
+}
+.btn-2{
+  background-color: #ffc078;
+}
+
+.btn-1:hover{
+  background-color: #ffc078;
+  color: aliceblue;
+}
